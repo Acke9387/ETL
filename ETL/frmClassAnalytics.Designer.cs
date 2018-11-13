@@ -65,7 +65,7 @@
             // ListBox1
             // 
             this.ListBox1.FormattingEnabled = true;
-            this.ListBox1.Location = new System.Drawing.Point(31, 222);
+            this.ListBox1.Location = new System.Drawing.Point(31, 221);
             this.ListBox1.Name = "ListBox1";
             this.ListBox1.Size = new System.Drawing.Size(507, 186);
             this.ListBox1.TabIndex = 5;
@@ -91,7 +91,7 @@
             this.lblTitle.TabIndex = 6;
             this.lblTitle.Text = "Class Analytics";
             // 
-            // Form1
+            // frmClassAnalytics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,7 +100,7 @@
             this.Controls.Add(this.ListBox1);
             this.Controls.Add(this.Groupbox1);
             this.Controls.Add(this.lblTitle);
-            this.Name = "Form1";
+            this.Name = "frmClassAnalytics";
             this.Text = "Class Analytics";
             this.Groupbox1.ResumeLayout(false);
             this.Groupbox1.PerformLayout();
