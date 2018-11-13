@@ -34,6 +34,7 @@
             this.ListBox1 = new System.Windows.Forms.ListBox();
             this.Groupbox1 = new System.Windows.Forms.GroupBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.Button3 = new System.Windows.Forms.Button();
             this.Groupbox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +56,7 @@
             // 
             // Button2
             // 
-            this.Button2.Location = new System.Drawing.Point(224, 427);
+            this.Button2.Location = new System.Drawing.Point(411, 427);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(121, 48);
             this.Button2.TabIndex = 8;
@@ -91,11 +92,21 @@
             this.lblTitle.TabIndex = 6;
             this.lblTitle.Text = "Class Analytics";
             // 
+            // Button3
+            // 
+            this.Button3.Location = new System.Drawing.Point(51, 427);
+            this.Button3.Name = "Button3";
+            this.Button3.Size = new System.Drawing.Size(121, 48);
+            this.Button3.TabIndex = 9;
+            this.Button3.Text = "Populate Files";
+            this.Button3.UseVisualStyleBackColor = true;
+            // 
             // frmClassAnalytics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 502);
+            this.Controls.Add(this.Button3);
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.ListBox1);
             this.Controls.Add(this.Groupbox1);
@@ -117,6 +128,7 @@
         private System.Windows.Forms.ListBox ListBox1;
         private System.Windows.Forms.GroupBox Groupbox1;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Button Button3;
     }
 }
 
